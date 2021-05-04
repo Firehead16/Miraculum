@@ -1,0 +1,140 @@
+{
+    "name": "InputControls",
+    "maps": [
+        {
+            "name": "Controls",
+            "id": "deaab32b-8598-4ee8-9593-114d0f1ce670",
+            "actions": [
+                {
+                    "name": "MoveCameraHorizontal",
+                    "type": "Value",
+                    "id": "0c8d489e-436d-443a-a8e1-208e8a503c95",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MoveCameraVertical",
+                    "type": "Value",
+                    "id": "edee4cc7-9103-49ef-87de-06960985acd0",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MoveCameraTouchHorizontal",
+                    "type": "Value",
+                    "id": "511f2075-c5bc-493d-8a68-6ded24c31106",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MoveCameraTouchVertical",
+                    "type": "Value",
+                    "id": "4b45bc15-0734-4480-ba94-03c40766f0c9",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "A/D",
+                    "id": "7bf11d4a-3e76-4a1c-b35c-649a0468b5e1",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveCameraHorizontal",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "f8a0eb12-9517-4f73-a165-a0f52343b3da",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Control scheme",
+                    "action": "MoveCameraHorizontal",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "970f4aaa-47da-48f0-b356-1472e66df7a2",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Control scheme",
+                    "action": "MoveCameraHorizontal",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "S/W",
+                    "id": "142e0b28-048b-4763-9707-03d09e396a56",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Control scheme",
+                    "action": "MoveCameraVertical",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "6e5ae41c-d5f1-4b1d-bd3e-38d64677ef03",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Control scheme",
+                    "action": "MoveCameraVertical",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "7c320e2a-897b-4b6b-836e-05d080d49a18",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Control scheme",
+                    "action": "MoveCameraVertical",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "ab1a8820-a432-40ee-bb27-51cabb273ba0",
+                    "path": "<Touchscreen>/delta/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveCameraTouchHorizontal",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "32436a5c-2cc7-4586-aedd-1b24ef44ce41",
+                    "path": "<Touchscreen>/delta/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveCameraTouchVertical",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Control scheme",
+            "bindingGroup": "Control scheme",
+            "devices": []
+        }
+    ]
+}
